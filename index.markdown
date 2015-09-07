@@ -39,9 +39,18 @@ Design Goals
 
  - Simplicity: Single piece modules. Minimum number of screws/connectors.
  - Weight: Reduce component weight when possible.
- - Strength: Design and build components with strength and robustness in mind.
+ - Strength: Design and build components with strength and robustness in mind.[^table]
 
 We can only use CF for a very short period of time, so we have to count up every piece that might be needed to be built in the next few years.
+
+[^table]:
+
+    Header One     | Header Two
+    :------------- | :-------------
+    Item One       | Item Two
+
+    Number of things that are in common
+
 
 LV2 Breakdown
 --------------------------------------------------------------------------------
