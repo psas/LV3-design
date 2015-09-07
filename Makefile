@@ -1,11 +1,16 @@
 PANTEX=--smart \
        --table-of-contents \
        --standalone
+RIMAGES=$(wildcard images/*.svg)
+IMAGES=$(RIMAGES:.svg=.pdf)
 
 
 all: pdf
 
-pdf:
+images/%.pdf: images/%.svg
+	inkscape -D -z --file=$< --export-pdf=$@
+
+pdf: $(IMAGES)
 	sed -e 's/.svg/.pdf/g' index.markdown > _paper.markdown
 	pandoc _paper.markdown $(PANTEX) -o PSAS-LV3-Design-Whitepaper.pdf
 	rm _paper.markdown
@@ -20,3 +25,4 @@ html:
 
 clean:
 	rm -f *.pdf
+	rm -f images/*.pdf
