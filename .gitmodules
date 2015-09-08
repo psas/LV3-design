@@ -3,4 +3,4 @@
 	url = https://github.com/psas/jekyll-layouts.git
 [submodule "tufte-latex"]
 	path = tufte-latex
-	url = https://github.com/Tufte-LaTeX/tufte-latex.git
+	url = https://github.com/psas/tufte-latex.git
