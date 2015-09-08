@@ -1,5 +1,7 @@
 PANTEX=--smart \
+       --chapters \
        --table-of-contents \
+       --template=./tufte-latex/pandoc.latex \
        --standalone
 RIMAGES=$(wildcard images/*.svg)
 IMAGES=$(RIMAGES:.svg=.pdf)
