@@ -8,7 +8,6 @@ date: October 2015
 description: "Design of the next generation PSAS rocket"
 ---
 
-<!--\newpage-->
 
 Introduction
 ================================================================================
@@ -52,8 +51,7 @@ We can only use CF for a very short period of time, so we have to count up every
     Number of things that are in common
 
 
-LV2 Breakdown
---------------------------------------------------------------------------------
+### LV2 Breakdown
 
 
  LV2 Component                  | Mass [g]   | Percent of Total Mass [%]
@@ -114,12 +112,29 @@ Nose
 Fin Design
 ================================================================================
 
-Fins.[^fin]
+Fin can overview
+
+ - Problems with fin design
+    - stiffness
+    - flutter
+ - Solutions
+    - CF layup types
+
+Fin Geometry
+--------------------------------------------------------------------------------
+
+This is how fins are defined.[^fin]
 
 [^fin]: ![Fin dimension terminology](images/fin-terminology.svg)
 
 
-Potential Configurations
+Fin Layup Technique
+--------------------------------------------------------------------------------
+
+Description and anaylisis
+
+
+Simulation
 ================================================================================
 
 
@@ -130,7 +145,7 @@ Config 2
 --------------------------------------------------------------------------------
 
 
-Meta Analysis
+Conclusion
 ================================================================================
 
 I'm So Meta Even This Acronym.
