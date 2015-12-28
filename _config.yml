@@ -20,8 +20,8 @@ timezone:    America/Los_Angeles
 future:      true
 highlighter: pygments
 markdown:    kramdown
-kramdown: 
-  toc_levels: "2,3"
+kramdown:
+  toc_levels: "1,2"
 
 sass:
     style: :compressed
