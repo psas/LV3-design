@@ -22,7 +22,6 @@ pdf: $(IMAGES) $(MLATEX) $(NBLATEX)
 	mv _paper.pdf PSAS_LV3_Design_Whitepaper.pdf
 	rm _paper.*
 	rm -f $(MLATEX)
-	rm -f $(NBLATEX)
 
 index:
 	cat *.md > _paper.markdown
