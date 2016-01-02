@@ -15,4 +15,7 @@ Carbon Fiber Module Layup
 
 2 layers
 
-
+Flight Section Weight: 509.2 g
+Length: 18 in
+ID: 152.27 mm
+Thick: 7.9 mm
